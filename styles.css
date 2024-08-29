@@ -74,24 +74,22 @@ p {
     padding: 15px 30px;
     margin: 20px auto;
     color: #fff;
-    background-color: #ff4757;
+    background: linear-gradient(135deg, #000000, #8a2be2);
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2em;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .auth-button:hover {
-    background-color: #e84118;
+    background: linear-gradient(135deg, #000000, #6a0dad);
+    transform: scale(1.05);
 }
 
 #authorize {
     text-align: center;
     padding: 50px 20px;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 8px;
-    margin: 20px;
 }
 
 #commands {
