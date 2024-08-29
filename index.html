@@ -8,25 +8,42 @@
 </head>
 <body>
     <header>
+        <nav>
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="commands.html" class="nav-button">Commands</a>
+            <a href="#authorize" class="nav-button">Authorize</a>
+        </nav>
+    </header>
+
+    <section id="intro">
         <h1>User Quote Bot</h1>
         <p>Your go-to bot for quotes!</p>
+    </section>
+
+    <section id="authorize">
+        <h2>Authorize the Bot</h2>
         <a href="https://discord.com/oauth2/authorize?client_id=1278815638600679505" class="auth-button">Authorize Bot</a>
-    </header>
+    </section>
 
     <section id="commands">
         <h2>Commands</h2>
-        <ul>
-            <li><strong>Random_Quote</strong> - Fetches a random quote.</li>
-            <li><strong>quote</strong> - Fetches a predefined quote.</li>
-            <li><strong>quote message</strong> - Fetches a quote based on a message.</li>
-        </ul>
-        <a href="commands.html" class="view-commands-button">View All Commands</a>
+        <div class="command-box">
+            <h3>Random_Quote</h3>
+            <p>Fetches a random quote.</p>
+        </div>
+        <div class="command-box">
+            <h3>quote</h3>
+            <p>Fetches a predefined quote.</p>
+        </div>
+        <div class="command-box">
+            <h3>quote message</h3>
+            <p>Fetches a quote based on a message.</p>
+        </div>
     </section>
 
     <section id="additional-info">
         <h2>Additional Information</h2>
         <p>More details about the bot, its features, and updates will be provided here.</p>
-        <!-- Add more content as needed -->
     </section>
 
     <footer>
